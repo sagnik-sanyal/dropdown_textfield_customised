@@ -451,13 +451,13 @@ class _DropDownTextFieldState extends State<DropDownTextField>
                 ? widget.textFieldDecoration!.copyWith(
                     suffixIcon: (_cnt.text.isEmpty || !widget.clearOption)
                         ? const Icon(
-                            Icons.arrow_drop_down_outlined,
+                            Icons.arrow_drop_down_rounded,
                           )
                         : widget.clearOption
                             ? InkWell(
                                 onTap: clearFun,
                                 child: const Icon(
-                                  Icons.clear,
+                                  Icons.arrow_drop_down_rounded,
                                 ),
                               )
                             : null,
@@ -468,13 +468,13 @@ class _DropDownTextFieldState extends State<DropDownTextField>
                     hintStyle: const TextStyle(fontWeight: FontWeight.normal),
                     suffixIcon: (_cnt.text.isEmpty || !widget.clearOption)
                         ? const Icon(
-                            Icons.arrow_drop_down_outlined,
+                            Icons.arrow_drop_down_rounded,
                           )
                         : widget.clearOption
                             ? InkWell(
                                 onTap: clearFun,
                                 child: const Icon(
-                                  Icons.clear,
+                                  Icons.arrow_drop_down_rounded,
                                 ),
                               )
                             : null,
