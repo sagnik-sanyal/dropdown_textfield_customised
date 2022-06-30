@@ -457,7 +457,8 @@ class _DropDownTextFieldState extends State<DropDownTextField>
                             ? InkWell(
                                 onTap: clearFun,
                                 child: const Icon(
-                                  Icons.arrow_drop_down_rounded,
+                                  Icons.
+          remove_circle_outline_rounded
                                 ),
                               )
                             : null,
@@ -474,7 +475,8 @@ class _DropDownTextFieldState extends State<DropDownTextField>
                             ? InkWell(
                                 onTap: clearFun,
                                 child: const Icon(
-                                  Icons.arrow_drop_down_rounded,
+                                  Icons.
+          remove_circle_outline_rounded
                                 ),
                               )
                             : null,
